@@ -16,21 +16,21 @@
 </head>
 <body>
 
-  Features
-  Company
-  Careers
-  About
+Features
+Company
+Careers
+About
 
-  Login
-  Register
+Login
+Register
 
-  Make remote work
+Make remote work
 
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
+Get your team in sync, no matter your location. Streamline processes,
+create team rituals, and watch productivity soar.
 
-  Learn more
-  
+Learn more
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
