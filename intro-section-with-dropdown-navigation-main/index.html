@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <title>Intro Section Project</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2 class="logo-mobile dark">Salar</h2>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+      <div class="navbar">
+        <h2 class="logo">Salar</h2>
+        <ul class="the-list">
+          <li id="hover" class="drop">
+            Features
+            <img
+              class="none-active"
+              src="./images/icon-arrow-down.svg"
+              alt="arrow"
+            />
+            <ul class="dropdown">
+              <li><img src="./images/icon-todo.svg" alt="Todo" /> Todo list</li>
+              <li>
+                <img src="./images/icon-calendar.svg" alt="Calendar" /> Calendar
+              </li>
+              <li>
+                <img src="./images/icon-reminders.svg" alt="Reminders" />
+                Reminders
+              </li>
+              <li>
+                <img src="./images/icon-planning.svg" alt="Planning" /> Planning
+              </li>
+            </ul>
+          </li>
+          <li id="hover" class="drop">
+            Company
+            <img
+              class="none-active"
+              src="./images/icon-arrow-down.svg"
+              alt="arrow"
+            />
+            <ul class="company">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </li>
+          <li class="links"><a href="#">Careers</a></li>
+          <li class="links"><a href="#">About</a></li>
+        </ul>
+        <div class="nav-btn">
+          <button class="logIn" id="nav-btn">Login</button>
+          <button class="register" id="nav-btn">Register</button>
+        </div>
+      </div>
+    </nav>
+    <main class="main dark">
+      <div class="text">
+        <h1 class="title">Make remote work</h1>
+        <p>
+          Get your team in sync no matter your location. Streamline processes,
+          create team rituals and watch productivity soar.
+        </p>
+        <button class="learn-more">Learn more</button>
+        <div class="sponsors">
+          <img src="./images/client-databiz.svg" alt="client-databiz" />
+          <img src="./images/client-audiophile.svg" alt="client-audiophile" />
+          <img src="./images/client-meet.svg" alt="client-meet" />
+          <img src="./images/client-maker.svg" alt="client-maker" />
+        </div>
+      </div>
+      <img class="hero" src="./images/image-hero-desktop.png" alt="hero" />
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
